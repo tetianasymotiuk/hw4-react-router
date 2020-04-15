@@ -1,0 +1,24 @@
+
+.back  {
+    background-image: url(./1.jpg);
+    opacity: 0.8;
+    display: block;
+    margin-left: 110px;
+    margin-top: 20px;
+    width: 1130px;
+    height: 550px;
+    
+}
+.contacts {
+    display: block;
+    position: absolute;
+    left: 500px;
+    margin-top: 20px;
+    top: 25px;
+}
+.contacts-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1px;
+    margin: 1px;
+}

@@ -1,0 +1,99 @@
+.post-data {
+    background-color: #15202B;
+    color: #8798A5;
+    display: flex;
+    padding: 5px;
+    width: 660px;
+    height: 380px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+}
+
+.name, .check, .nickname, .point {
+    margin-right: 5px;
+}
+
+.post-info>img {
+    border-radius: 50%;
+    height: 56px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.name-author {
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 95px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.check{
+    position: absolute;
+    top: 4px;
+    left: 135px;
+}
+
+.nickname{
+    position: absolute;
+    left: 158px;
+}
+
+.point{ 
+    position: absolute;
+    left: 252px;
+}
+
+.date{
+    position: absolute;
+    left: 260px;
+}
+
+.nickname, .date, .point {
+    color: #8798A5;
+}
+
+.text-content{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 93px;
+}
+
+.check-down {
+    position: absolute;
+    top: 25px;
+    left: 650px;
+}
+
+.post-content>img {
+    width: 560px;
+    height: 260px;
+    border-radius: 15px;
+    position: absolute;
+    left: 93px;
+    top: 90px;
+}
+
+.static-data {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 75px;
+    top: 342px;
+    width: 467px;
+}
+
+li {
+    display: flex;
+}
+.mes, .shar, .heart, .out {
+    top: 3px;
+    left: -10px;
+    position: relative;
+}
